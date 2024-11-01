@@ -1,7 +1,7 @@
 # SOMID | Social Media Downloader
 SOMID, or by it's full name, Social Media Middleman, is a small Telegram bot wrote in python with the sole purpose to download videos and pictures from social media and send it back to the user.
 
-![SOMID Preview](https://i.imgur.com/uydg8tp.gif)
+![](https://github.com/doncezart/somid/blob/main/preview.gif)
 
 ## How to install
 1. Download the latest version of [Python](https://www.python.org/downloads/) and install it.
