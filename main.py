@@ -115,12 +115,12 @@ class MediaHandler:
     def extract_instagram_shortcode(url: str) -> Union[str, None]:
         """Extract shortcode from Instagram URL"""
         patterns = [
-            r'instagram.com/p/([^/]+)',
-            r'instagram.com/v/([^/]+)',
-            r'instagram.com/reels/([^/]+)',
-            r'instagram.com/reel/([^/]+)',
-            r'instagram.com/video/([^/]+)',
-            r'instagram.com/photo/([^/]+)',
+            r'instagram\.com/(?:[^/]+/)?p/([^/?]+)',
+            r'instagram\.com/(?:[^/]+/)?v/([^/?]+)',
+            r'instagram\.com/(?:[^/]+/)?reels/([^/?]+)',
+            r'instagram\.com/(?:[^/]+/)?reel/([^/?]+)',
+            r'instagram\.com/(?:[^/]+/)?video/([^/?]+)',
+            r'instagram\.com/(?:[^/]+/)?photo/([^/?]+)',
         ]
         
         for pattern in patterns:
