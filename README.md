@@ -15,8 +15,7 @@ SOMID, or by it's full name, Social Media Middleman, is a small Telegram bot wro
 The bot will now run in an asynchronous environment. Keep the bot program open for as much as you want. If you want to run the bot in the background without keeping a program open manually, look into tmux, systemd or other ways.
 
 ## Types of media compatible
-1. Instagram posts (video, photo or carousel)
-2. Instagram reels
+1. Instagram posts (video, photo or carousel) and reels
 3. TikTok posts (video, photo or carousel, no watermark)
 
 ## To-Do List (media compatibility)
